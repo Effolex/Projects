@@ -91,8 +91,8 @@ function limpaQuadro() {
   for (let i = 0; i < quadros.length; i += 1) {
     const quadro = quadros[i];
     quadro.style.backgroundColor = 'white';
-    if (quadro.classList.contains('estrelinha')) {
-      quadro.classList.remove('estrelinha');
+    if (quadro.classList.contains('.estrelinha-louca')) {
+      quadro.classList.remove('.estrelinha-louca');
     }
   }
 }
