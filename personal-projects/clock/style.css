@@ -20,10 +20,7 @@ body {
 
     background-color: #f6ecc4;
 background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
-
-
-
-
+    filter:blur(0.7px);
 
     background-clip: text;
     -webkit-background-clip: text;
@@ -43,14 +40,11 @@ background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
 
     background-color: #f6ecc4;
 background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
-
-
-
-
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    
+    filter: blur(1px);
     
 }
 
