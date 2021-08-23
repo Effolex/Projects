@@ -88,7 +88,22 @@ background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
     align-content: flex-end;
     bottom:5%;
     left: 47%;
-    
+}
 
+@media only screen and (min-width: 1920px) {
+    body {
+        background-size: 2600px;
+    }
 
+    #titulo {
+        font-size: 70px;
+    }
+
+    #time-container {
+        font-size: 100px;
+    }
+
+    #time-container small {
+        padding: 20px;
+    }
 }
