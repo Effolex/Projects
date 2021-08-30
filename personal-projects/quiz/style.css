@@ -1,0 +1,93 @@
+/*
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+*/
+
+body {
+  margin: 0;
+}
+html,
+body,
+#main-container {
+  height: 100%;
+  color: #6A6E6F;
+  font-family: sans-serif;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B2C4CA;
+}
+
+#container-pergunta {
+  background-color: #F2F3FB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  flex-basis: 400px;
+  box-shadow: 0px 0px 20px rgb(133, 133, 133);
+  border-radius: 10px;
+  
+
+}
+
+#container-pergunta header {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+
+  color:#F2F3FB;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
+  border-bottom: 2px solid #6A6E6F;
+}
+
+#opcoes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#opcoes li {
+  margin: 0;
+  padding: 10px 45px;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  height: 10%;
+  border: none;
+  border-top: 2px solid #6A6E6F;
+  font-size: 15px;
+  font-weight: bold;
+  color: #F2F3FB;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+.selected {
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  border-radius: 0px !important;
+  color: #F2F3FB;
+  font-weight: 600;
+  
+}
