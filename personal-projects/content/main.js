@@ -24,8 +24,10 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setPixelRatio( window.devicePixelRatio );
 
 renderer.setSize( window.innerWidth, window.innerHeight);
-camera.position.setZ(2);
-camera.position.setX(2)
+camera.position.setZ(0.8);
+camera.position.setX(2);
+camera.position.setY(0);
+camera.rotation.y = 0.8;
 
 
 
@@ -95,7 +97,7 @@ pointLight.position.set(0, 0, 120)
 //  const gridHelper = new THREE.GridHelper(200, 50);
 //  scene.add(lightHelper, gridHelper);
 
-const controls = new OrbitControls(camera, renderer.domElement);
+// const controls = new OrbitControls(camera, renderer.domElement);
 
 function randomColor() {
   return Math.floor(Math.random()*256);
@@ -179,9 +181,10 @@ function animate() {
     //deathStar.rotation.x += 0.00010;
     //deathStar.rotation.z -= 0.00015;
   }
+  console.log(camera.position)
   //console.log('X ->', objectCreated.rotation.x)
   //console.log('Y ->', objectCreated.rotation.y)
-  controls.update();
+  //controls.update();
 
   composer.render();
 }
