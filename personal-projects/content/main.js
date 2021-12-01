@@ -181,7 +181,6 @@ function animate() {
     //deathStar.rotation.x += 0.00010;
     //deathStar.rotation.z -= 0.00015;
   }
-  console.log(camera.position)
   //console.log('X ->', objectCreated.rotation.x)
   //console.log('Y ->', objectCreated.rotation.y)
   //controls.update();
