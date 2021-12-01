@@ -3,3 +3,11 @@ canvas {
   top: 0;
   left: 0;
 }
+
+h1 {
+  position: absolute;
+  color: azure;
+  width: 100%;
+  text-align: center;
+  top: 45%;
+}
