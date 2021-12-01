@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body {
-  overflow: hidden;
-}
 
 canvas {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
